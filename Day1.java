@@ -62,10 +62,6 @@ public class Day1 {
 		System.out.println(max.getText());
 		WebElement clo=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[@class='ui-icon ui-icon-closethick'])[3]")));
 		clo.click();
-		//By x =By.xpath("(//span[@class='ui-icon ui-icon-closethick'])[3]");
-        //wait.until(ExpectedConditions.elementToBeClickable(x)).click();
-        //wait.until(ExpectedConditions.elementToBeClickable(x)).click();
-		//System.out.println("");
 		
 		driver.close();
 		
